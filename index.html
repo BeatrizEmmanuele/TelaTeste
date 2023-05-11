@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TelaTeste</title>
+    <link rel="stylesheet" href=".\style.css">
+
+</head>
+
+<body>
+   
+    <header>
+
+        <div id="logo">
+            <div>
+            <img src="./assets/Frame.png" alt="Foto da logo">
+            ESCALA<strong>MED</strong>
+            </div>  
+        </div>
+
+        <nav id="menu">
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Escalas Corporativas</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#" id="loginLink">Login</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main id="caixaGeralLogin">
+            <div id="login-campo-de-descricao">
+                <p id="login-nome">Login</p>
+                <p id="login-texto">Para acessar o EscalaMed basta digitar o seu CRM no primeiro campo e, no segundo, a senha que você escolheu ao se cadastrar.</p>
+            </div>
+            <div id="login-campo-de-cadastro">
+                <section>
+                    <form  onsubmit="validarLogin(event)">
+                        <label for="crm">
+                            <input      type="tel" name="crm"
+                             id="crm" 
+                             placeholder="Digite o seu CRM:">
+                        </label>
+                        <br><br>
+                        <label for="senha">
+                            <input   type="password" name="senha"
+                             id="senha"
+                             placeholder="Digite a sua senha:"></label>
+                    </form>
+                </section>
+            </div>
+    </main>
+    <!-- <button type="submit" id="button">Acessar</button> -->
+    <script src=".\script.js"></script>  
+</body>
+
+</html>

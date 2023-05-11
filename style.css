@@ -1,0 +1,112 @@
+body{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --black-color:#000;
+    --white-color:#fff;
+    --blue-unipe-color:#003B75;
+    --yellow-unipe:#ffd20e
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid var(--black-color);
+}
+
+#menu ul{
+    display: flex;
+    gap: 4rem;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+#loginLink{
+    color: var(--black-color);
+    background-color: var(--yellow-unipe);
+    padding: 0.8rem;
+    border-radius: 2rem;
+    size: 2rem;
+    box-shadow: var(--white-color);
+    transition: 0.3s;
+    font-size: 900;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+header{
+    background-color: var(--blue-unipe-color);
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+#logo{
+    font-size: 2rem;
+    color: var(--white-color);
+    padding-bottom: 2rem;
+}
+
+#logo img{
+    width: 4rem;
+    height: 4rem;    
+
+}
+
+#caixaGeralLogin{
+    background-color: var(--blue-unipe-color);
+    margin: 8rem 22rem 8rem 24rem;
+    border-radius: 4rem;
+    width: 50%;
+    height: 15rem;
+}
+
+#login-nome{
+    padding: 2rem 0rem 0rem 3rem;
+    color: var(--white-color);
+    font-size: 2rem;
+
+}
+
+#login-texto{
+    padding: 0rem 0rem 2rem 3rem;
+    color: var(--white-color);
+    width: 20rem;
+    
+
+}
+
+#login-campo-de-descricao{
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#login-campo-de-cadastro{
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    float: right; 
+    padding: 6rem;
+}
+
+#login-campo-de-cadastro input{
+    background-color: var(--yellow-unipe);
+}
+
+
+
